@@ -1,0 +1,1848 @@
+.csp_section {
+	padding: 0;
+	width: 100%;
+	margin-top: -59px;
+	z-index: 10 !important;
+	opacity: 1.0;
+	background-image: url(assets/background.webp);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.csp_section .container {
+	padding: 0 10px;
+	width: 60%;
+	z-index: 10 !important;
+	opacity: 1.0;
+	
+}
+
+.csp_section .fullinner {
+	
+	width: 100%;
+	
+	z-index: 10 !important;
+	opacity: 1.0;
+}
+
+.csp_section .inner {
+	max-width: 1580px;
+	padding: 0 40px;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 10 !important;
+	opacity: 1.0;
+}
+
+.csp_section .left_txt {
+	float: left;
+	width: 100%;
+	padding-top: 150px
+}
+
+.csp_section .left_txt h2 {
+	font-size: 50px;
+	color: #fff;
+	padding-bottom: 20px;
+	font-family: frutiger_ce_55_romanregular
+}
+
+.csp_section .left_txt .btn_list2 {
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 15px;
+	border: none
+}
+
+.csp_section .left_txt .btn_list2 li {
+	float: left;
+	padding-right: 15px
+}
+
+.csp_section .left_txt .btn_list2 li a {
+	float: left;
+	min-width: 150px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #000;
+	border: 2px solid #fff !important;
+	border-radius: 4px !important;
+	text-align: center;
+	font-family: FrutigerLTStd55Roman;
+	padding: 0
+}
+
+.csp_section .left_txt .btn_list2 li a:hover {
+	background-color: #fff;
+	color: #000
+}
+
+.csp_section .left_txt .btn_list2 li.active a {
+	background-color: #fff !important;
+	color: #000;
+	border: 6px solid #fff !important;
+	border-radius: 8px !important
+}
+
+.csp_section .left_txt p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: FrutigerLTStd55Roman;
+	padding-bottom: 20px
+}
+
+.csp_section .left_txt .btn_list2 li:last-child {
+	padding-right: 0
+}
+
+.csp_section .left_txt .form-group {
+	padding-right: 50px
+}
+
+.csp_section .left_txt .form-control {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	padding-left: 0;
+	height: 46px;
+	letter-spacing: 1px;
+	color: #fff;
+	font-family: FrutigerLTStd55Roman
+}
+
+.csp_section .left_txt .form-control::-moz-placeholder {
+	opacity: 1;
+	color: #fff
+}
+
+.csp_section .left_txt .form-control::-webkit-input-placeholder {
+	opacity: 1;
+	color: #fff
+}
+
+/*  text to display on hover */
+.right_txt {
+	width: 200px;
+	position: absolute;
+	left: -310px;
+	top: -35px;
+	text-align: left;
+	z-index: 90;
+	transition: all .25s ease-in 0s;
+	-webkit-transition: all .25s ease-in 0s;
+	opacity: 0;
+	visibility: hidden
+}
+
+.right_txt .inner_dd {
+	width: 100%;
+	border: 1px dashed #067070;
+    background-color: #0c6186;
+	max-height: 350px;
+	overflow: hidden;
+	overflow-y: auto
+}
+
+.right_txt:before {
+	content: '';
+	border-style: solid;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #067070;
+	position: absolute;
+	right: -10px;
+	top: 35px
+}
+
+.right_txt .inner_dd>ul {
+	float: left;
+	width: 100%;
+	padding: 20px 0
+}
+
+.right_txt .inner_dd>ul>li {
+	float: left;
+	width: 100%;
+	list-style: none
+}
+
+.right_txt .inner_dd>ul>li>a {
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 10px;
+}
+
+.right_txt .inner_dd>ul>li>a:hover {
+	background-color: #067070
+}
+
+.right_txt .inner_dd a.btn {
+	margin-bottom: 10px;
+	border-radius: 4px;
+	background-color: #067070;
+	border: 1px solid #fff;
+	line-height: 36px;
+	margin-left: 20px;
+	padding: 0 10px
+}
+
+.right_txt .inner_dd a.btn:before {
+	display: none
+}
+
+.right_txt .inner_dd>ul>li>a:before {
+	display: none
+}
+
+.right_txt p {
+	color: #fff;
+	background-color: #067070;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	display: none;
+	border-radius: 5px 5px 0 0;
+	margin: 0
+}
+
+/* ------ */
+
+.structure {
+	text-align: center;
+	position: relative;
+	max-width: 695px
+}
+
+.structure>img {
+	max-width: 410px;
+	display: inline-block;
+	width: 100%
+}
+
+.body_list {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.body_list.right {
+	left: auto;
+	right: 0
+}
+
+.body_list>li {
+	position: absolute;
+	top: 0
+}
+
+.body_list>li:hover .right_txt {
+	opacity: 1;
+	visibility: visible;
+	left: -240px
+}
+
+.body_list>li:hover>a {
+	color: #067070
+}
+
+.body_list.right .right_txt {
+	right: -415px;
+	left: auto;
+	top: -30px
+}
+
+.body_list.right .right_txt:before {
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #067070 transparent transparent;
+	right: auto;
+	top: 30px;
+	left: -10px
+}
+
+.body_list.right>li:hover .right_txt {
+	opacity: 1;
+	visibility: visible;
+	right: -405px;
+	left: auto
+}
+
+.body_list>li>a {
+	position: relative;
+	color: #fff;
+	font-size: 16px;
+	transition: none
+}
+
+.body_list>li>a:hover {
+	color: #067070
+}
+
+.body_list>li>a>.txt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+	color: #fff
+}
+
+.body_list>li:hover>a .txt, .body_list>li>a:hover .txt {
+	transform: scale(1.5);
+	top: -1px;
+	left: -10px;
+	color: #067070;
+	font-size: .8em;
+}
+
+.structure.male .body_list.left>li.eyeMpointer {
+	left: 70px;
+	top: 58px
+}
+
+.structure.male .body_list.left>li.eyeMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/earMPointerImgWhite.png);
+	position: absolute;
+	right: -265px
+}
+
+.body_list.left>li.eyeMpointer>a:hover:before, .structure.male .body_list.left>li.eyeMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/eyeMpointerImgRed.png)
+}
+
+
+
+.structure.male .body_list.left>li.earMPointer {
+	left: 60px;
+	top: 75px
+}
+
+.structure.male .body_list.left>li.earMPointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/earMPointerImgWhite.png);
+	position: absolute;
+	right: -265px
+}
+
+.body_list.left>li.earMPointer>a:hover:before, .structure.male .body_list.left>li.earMPointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/earMPointerImgRed.png)
+}
+
+.structure.male .body_list.left>li.teethMpointer {
+	left: 90px;
+	top: 110px
+}
+
+.structure.male .body_list.left>li.teethMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/teethMpointerImgWhite.png);
+	position: absolute;
+	right: -260px;
+	top: -14px
+}
+
+.body_list.left>li.teethMpointer>a:hover:before, .structure.male .body_list.left>li.teethMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/teethMpointerImgRed.png)
+}
+
+.structure.male .body_list.left>li.throatMpointer {
+	left: 90px;
+	top: 135px
+}
+
+.structure.male .body_list.left>li.throatMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/throatMpointerImgWhite.png);
+	position: absolute;
+	right: -260px;
+	top: -23px
+}
+
+.body_list.left>li.throatMpointer>a:hover:before, .structure.male .body_list.left>li.throatMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/throatMpointerImgRed.png)
+}
+
+.structure.male .body_list.left>li.chestMpointer {
+	left: 25px;
+	top: 165px
+}
+
+.structure.male .body_list.left>li.chestMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/chestMpointerImgWhite.png);
+	position: absolute;
+	right: -305px;
+	top: -2px
+}
+
+.body_list.left>li.chestMpointer>a:hover:before, .structure.male .body_list.left>li.chestMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/chestMpointerImgRed.png)
+}
+
+.structure.male .body_list.left>li.liverMpointer {
+	left: 40px;
+	top: 195px
+}
+
+.structure.male .body_list.left>li.liverMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/liverMpointerImgWhite.png);
+	position: absolute;
+	right: -303px;
+	top: 0
+}
+
+.body_list.left>li.liverMpointer>a:hover:before, .structure.male .body_list.left>li.liverMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/liverMpointerImgRed.png)
+}
+
+.structure.male .body_list.left>li.handMpointer {
+	left: 5px;
+	top: 235px
+}
+
+.structure.male .body_list.left>li.handMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/handMpointerImgWhite.png);
+	position: absolute;
+	right: -250px;
+	top: -2px
+}
+
+.body_list.left>li.handMpointer>a:hover:before, .structure.male .body_list.left>li.handMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/handMpointerImgRed.png)
+}
+
+.structure.male .body_list.left>li.pancreas {
+	left: -5px;
+	top: 215px
+}
+
+.structure.male .body_list.left>li.pancreas>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/handMpointerImgWhite.png);
+	position: absolute;
+	right: -330px;
+	top: -2px
+}
+
+.body_list.left>li.pancreas>a:hover:before, .structure.male .body_list.left>li.pancreas:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/handMpointerImgRed.png)
+}
+
+
+
+.structure.male .body_list.left>li.kidneysMpointer {
+	left: 65px;
+	top: 260px
+}
+
+.structure.male .body_list.left>li.kidneysMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/kidneysMpointerImgWhite.png);
+	position: absolute;
+	right: -262px;
+	top: 8px
+}
+
+.body_list.left>li.kidneysMpointer>a:hover:before, .structure.male .body_list.left>li.kidneysMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/kidneysMpointerImgRed.png)
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer {
+	left: 60px;
+	top: 325px
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/lowerBackMpointerImgWhite.png);
+	position: absolute;
+	right: -285px;
+	top: -7px
+}
+
+.body_list.left>li.lowerBackMpointer>a:hover:before, .structure.male .body_list.left>li.lowerBackMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/lowerBackMpointerImgRed.png)
+}
+
+.body_list.left>li.lowerBackMpointer>a:hover .txt, .structure.male .body_list.left>li.lowerBackMpointer:hover>a .txt
+	{
+	transform: scale(1.5);
+	top: -1px;
+	left: -20px;
+	color: #067070
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer .right_txt {
+	left: -270px
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer:hover .right_txt {
+	left: -280px
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer>a>.txt {
+	white-space: nowrap
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer {
+	left: 55px;
+	top: 355px
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/reproductiveMpointerImgWhite.png);
+	position: absolute;
+	right: -292px;
+	top: -3px
+}
+
+.body_list.left>li.reproductiveMpointer>a:hover:before, .structure.male .body_list.left>li.reproductiveMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/reproductiveMpointerImgRed.png)
+}
+
+.body_list.left>li.reproductiveMpointer>a:hover .txt, .structure.male .body_list.left>li.reproductiveMpointer:hover>a .txt
+	{
+	transform: scale(1.5);
+	top: -1px;
+	left: -20px;
+	color: #067070
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer .right_txt {
+	left: -370px
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer:hover .right_txt
+	{
+	left: -380px
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer>a>.txt {
+	text-align: left;
+	line-height: 16px
+}
+
+.structure.male .body_list.left>li.thighMpointer {
+	left: 100px;
+	top: 440px
+}
+
+.structure.male .body_list.left>li.thighMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	right: -205px;
+	top: 0
+}
+
+.body_list.left>li.thighMpointer>a:hover:before, .structure.male .body_list.left>li.thighMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/thighMpointerImgRed.png)
+}
+
+.structure.male .body_list.left>li.footMpointer {
+	left: 35px;
+	top: 645px
+}
+
+.structure.male .body_list.left>li.footMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/footMpointerImgWhite.png);
+	position: absolute;
+	right: -265px;
+	top: 8px
+}
+
+.body_list.left>li.footMpointer>a:hover:before, .structure.male .body_list.left>li.footMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/footMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li>a>.txt {
+	left: auto;
+	right: -40px
+}
+
+.body_list.right>li>a:hover .txt, .structure.male .body_list.right>li:hover>a .txt
+	{
+	left: auto;
+	right: -50px
+}
+
+.structure.male .body_list.right>li.brainMpointer {
+	left: -140px;
+	top: 70px
+}
+
+.structure.male .body_list.right>li.brainMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/brainMpointerImgWhite.png);
+	position: absolute;
+	left: -210px;
+	top: -22px;
+	width: 200px
+}
+
+.body_list.right>li.brainMpointer>a:hover:before, .structure.male .body_list.right>li.brainMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/brainMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.noseMpointer {
+	left: -115px;
+	top: 100px
+}
+
+.structure.male .body_list.right>li.noseMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/noseMpointerImgWhite.png);
+	position: absolute;
+	left: -235px;
+	top: -23px;
+	width: 182px
+}
+
+.body_list.right>li.noseMpointer>a:hover:before, .structure.male .body_list.right>li.noseMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/noseMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.heartMpointer {
+	left: -155px;
+	top: 162px
+}
+
+.structure.male .body_list.right>li.heartMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	left: -170px;
+	top: 0;
+	width: 160px
+}
+
+.body_list.right>li.heartMpointer>a:hover:before, .structure.male .body_list.right>li.heartMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/heartMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.lungMpointer {
+	left: -153px;
+	top: 197px
+}
+
+.structure.male .body_list.right>li.lungMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	left: -170px;
+	top: 0;
+	width: 160px
+}
+
+.body_list.right>li.lungMpointer>a:hover:before, .structure.male .body_list.right>li.lungMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/lungMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.elbowMpointer {
+	left: -90px;
+	top: 240px
+}
+
+.structure.male .body_list.right>li.elbowMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	left: -170px;
+	top: 0;
+	width: 160px
+}
+
+.body_list.right li.elbowMpointer>a:hover:before, .structure.male .body_list.right>li.elbowMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.spineMpointer {
+	left: -140px;
+	top: 275px
+}
+
+.structure.male .body_list.right>li.spineMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/spineMpointerImgWhite.png);
+	position: absolute;
+	left: -210px;
+	top: -20px;
+	width: 200px
+}
+
+.body_list.right li.spineMpointer>a:hover:before, .structure.male .body_list.right>li.spineMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/spineMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.stomachMpointer {
+	left: -105px;
+	top: 350px
+}
+
+.structure.male .body_list.right>li.stomachMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/brainMpointerImgWhite.png);
+	position: absolute;
+	left: -235px;
+	top: -23px;
+	width: 198px
+}
+
+.body_list.right li.stomachMpointer>a:hover:before, .structure.male .body_list.right>li.stomachMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/stomachMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.hipMpointer {
+	left: -92px;
+	top: 372px
+}
+
+.structure.male .body_list.right>li.hipMpointer>a {
+	min-width: 90px
+}
+
+.structure.male .body_list.right>li.hipMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/hipMpointerImgWhite.png);
+	position: absolute;
+	left: -195px;
+	top: 0;
+	width: 200px
+}
+
+.body_list.right li.hipMpointer>a:hover:before, .structure.male .body_list.right>li.hipMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/hipMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.kneeMpointer {
+	left: -145px;
+	top: 520px
+}
+
+.structure.male .body_list.right>li.kneeMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	left: -165px;
+	top: 0;
+	width: 160px
+}
+
+.body_list.right li.kneeMpointer>a:hover:before, .structure.male .body_list.right>li.kneeMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/kneeMpointerImgRed.png)
+}
+
+.structure.male .body_list.right>li.ankleMpointer {
+	left: -65px;
+	top: 620px
+}
+
+.structure.male .body_list.right>li.ankleMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/ankleMpointerImgWhite.png);
+	position: absolute;
+	left: -228px;
+	top: 6px;
+	width: 215px
+}
+
+.body_list.right li:nth-child(10)>a:hover:before, .structure.male .body_list.right>li.ankleMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/ankleMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.eyeMpointer {
+	left: 70px;
+	top: 60px
+}
+
+.structure.female .body_list.left>li.eyeMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/earMPointerImgWhite.png);
+	position: absolute;
+	right: -265px
+}
+
+.body_list.left>li.eyeMpointer>a:hover:before, .structure.female .body_list.left>li.eyeMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/eyeMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.earMPointer {
+	left: 50px;
+	top: 75px
+}
+
+.structure.female .body_list.left>li.earMPointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/earMPointerImgWhite.png);
+	position: absolute;
+	right: -265px
+}
+
+.body_list.left>li.earMPointer>a:hover:before, .structure.female .body_list.left>li.earMPointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/earMPointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.teethMpointer {
+	left: 80px;
+	top: 120px
+}
+
+.structure.female .body_list.left>li.teethMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/teethMpointerImgWhite.png);
+	position: absolute;
+	right: -260px;
+	top: -14px
+}
+
+.body_list.left>li.teethMpointer>a:hover:before, .structure.female .body_list.left>li.teethMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/teethMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.throatMpointer {
+	left: 90px;
+	top: 155px
+}
+
+.structure.female .body_list.left>li.throatMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/throatMpointerImgWhite.png);
+	position: absolute;
+	right: -260px;
+	top: -23px
+}
+
+.body_list.left>li.throatMpointer>a:hover:before, .structure.female .body_list.left>li.throatMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/throatMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.chestMpointer {
+	left: 0;
+	top: 195px
+}
+
+.structure.female .body_list.left>li.chestMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/chestMpointerImgWhite.png);
+	position: absolute;
+	right: -315px;
+	top: -2px
+}
+
+.body_list.left>li.chestMpointer>a:hover:before, .structure.female .body_list.left>li.chestMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/chestMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.liverMpointer {
+	left: 30px;
+	top: 225px
+}
+
+.structure.female .body_list.left>li.liverMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/liverMpointerImgWhite.png);
+	position: absolute;
+	right: -303px;
+	top: 0
+}
+
+.body_list.left>li.liverMpointer>a:hover:before, .structure.female .body_list.left>li.liverMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/liverMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.handMpointer {
+	left: -5px;
+	top: 300px
+}
+
+.structure.female .body_list.left>li.handMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/handMpointerImgWhite.png);
+	position: absolute;
+	right: -254px;
+	top: -2px
+}
+
+.body_list.left>li.handMpointer>a:hover:before, .structure.female .body_list.left>li.handMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/handMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.pancreas {
+	left: -5px;
+	top: 250px
+}
+
+.structure.female .body_list.left>li.pancreas>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/handMpointerImgWhite.png);
+	position: absolute;
+	right: -330px;
+	top: -2px
+}
+
+.body_list.left>li.pancreas>a:hover:before, .structure.female .body_list.left>li.pancreas:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/handMpointerImgRed.png)
+}
+
+
+
+
+.structure.female .body_list.left>li.kidneysMpointer {
+	left: 55px;
+	top: 280px
+}
+
+.structure.female .body_list.left>li.kidneysMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/kidneysMpointerImgWhite.png);
+	position: absolute;
+	right: -262px;
+	top: 8px
+}
+
+.body_list.left>li.kidneysMpointer>a:hover:before, .structure.female .body_list.left>li.kidneysMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/kidneysMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer {
+	left: 50px;
+	top: 340px
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/lowerBackMpointerImgWhite.png);
+	position: absolute;
+	right: -285px;
+	top: -7px
+}
+
+.body_list.left>li.lowerBackMpointer>a:hover:before, .structure.female .body_list.left>li.lowerBackMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/lowerBackMpointerImgRed.png)
+}
+
+.body_list.left>li.lowerBackMpointer>a:hover .txt, .structure.female .body_list.left>li.lowerBackMpointer:hover>a .txt
+	{
+	transform: scale(1.5);
+	top: -1px;
+	left: -20px;
+	color: #067070
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer .right_txt {
+	left: -370px
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer:hover .right_txt
+	{
+	left: -380px
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer>a>.txt {
+	white-space: nowrap
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer {
+	left: 55px;
+	top: 380px
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/reproductiveMpointerImgWhite.png);
+	position: absolute;
+	right: -292px;
+	top: -3px
+}
+
+.body_list.left>li.reproductiveMpointer>a:hover:before, .structure.female .body_list.left>li.reproductiveMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/reproductiveMpointerImgRed.png)
+}
+
+.body_list.left>li.reproductiveMpointer>a:hover .txt, .structure.female .body_list.left>li.reproductiveMpointer:hover>a .txt
+	{
+	transform: scale(1.5);
+	top: -1px;
+	left: -20px;
+	color: #067070
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer .right_txt {
+	left: -370px
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer:hover .right_txt
+	{
+	left: -380px
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer>a>.txt {
+	text-align: left;
+	line-height: 16px
+}
+
+.structure.female .body_list.left>li.thighMpointer {
+	left: 100px;
+	top: 440px
+}
+
+.structure.female .body_list.left>li.thighMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	right: -205px;
+	top: 0
+}
+
+.body_list.left>li.thighMpointer>a:hover:before, .structure.female .body_list.left>li.thighMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/thighMpointerImgRed.png)
+}
+
+.structure.female .body_list.left>li.footMpointer {
+	left: 50px;
+	top: 660px
+}
+
+.structure.female .body_list.left>li.footMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/footMpointerImgWhite.png);
+	position: absolute;
+	right: -265px;
+	top: 8px
+}
+
+.body_list.left>li.footMpointer>a:hover:before, .structure.female .body_list.left>li.footMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/footMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li>a>.txt {
+	left: auto;
+	right: -40px
+}
+
+.body_list.right>li>a:hover .txt, .structure.female .body_list.right>li:hover>a .txt
+	{
+	left: auto;
+	right: -50px
+}
+
+.structure.female .body_list.right>li.brainMpointer {
+	left: -132px;
+	top: 70px
+}
+
+.structure.female .body_list.right>li.brainMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/brainMpointerImgWhite.png);
+	position: absolute;
+	left: -210px;
+	top: -22px;
+	width: 200px
+}
+
+.body_list.right>li.brainMpointer>a:hover:before, .structure.female .body_list.right>li.brainMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/brainMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.noseMpointer {
+	left: -110px;
+	top: 112px
+}
+
+.structure.female .body_list.right>li.noseMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/noseMpointerImgWhite.png);
+	position: absolute;
+	left: -235px;
+	top: -23px;
+	width: 182px
+}
+
+.body_list.right>li.noseMpointer>a:hover:before, .structure.female .body_list.right>li.noseMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/noseMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.heartMpointer {
+	left: -155px;
+	top: 182px
+}
+
+.structure.female .body_list.right>li.heartMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	left: -170px;
+	top: 0;
+	width: 160px
+}
+
+.body_list.right>li.heartMpointer>a:hover:before, .structure.female .body_list.right>li.heartMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/heartMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.lungMpointer {
+	left: -165px;
+	top: 215px
+}
+
+.structure.female .body_list.right>li.lungMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	left: -170px;
+	top: 0;
+	width: 160px
+}
+
+.body_list.right>li.lungMpointer>a:hover:before, .structure.female .body_list.right>li.lungMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/lungMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.elbowMpointer {
+	left: -80px;
+	top: 250px
+}
+
+.structure.female .body_list.right>li.elbowMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	left: -170px;
+	top: 0;
+	width: 160px
+}
+
+.body_list.right li.elbowMpointer>a:hover:before, .structure.female .body_list.right>li.elbowMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.spineMpointer {
+	left: -140px;
+	top: 287px
+}
+
+.structure.female .body_list.right>li.spineMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/spineMpointerImgWhite.png);
+	position: absolute;
+	left: -210px;
+	top: -20px;
+	width: 200px
+}
+
+.body_list.right li.spineMpointer>a:hover:before, .structure.female .body_list.right>li.spineMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/spineMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.stomachMpointer {
+	left: -95px;
+	top: 355px
+}
+
+.structure.female .body_list.right>li.stomachMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/brainMpointerImgWhite.png);
+	position: absolute;
+	left: -235px;
+	top: -23px;
+	width: 198px
+}
+
+.body_list.right li.stomachMpointer>a:hover:before, .structure.female .body_list.right>li.stomachMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/stomachMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.hipMpointer {
+	left: -82px;
+	top: 370px
+}
+
+.structure.female .body_list.right>li.hipMpointer>a {
+	min-width: 90px
+}
+
+.structure.female .body_list.right>li.hipMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/hipMpointerImgWhite.png);
+	position: absolute;
+	left: -195px;
+	top: 0;
+	width: 200px
+}
+
+.body_list.right li.hipMpointer>a:hover:before, .structure.female .body_list.right>li.hipMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/hipMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.kneeMpointer {
+	left: -155px;
+	top: 520px
+}
+
+.structure.female .body_list.right>li.kneeMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/elbowMpointerImgWhite.png);
+	position: absolute;
+	left: -165px;
+	top: 0;
+	width: 160px
+}
+
+.body_list.right li.kneeMpointer>a:hover:before, .structure.female .body_list.right>li.kneeMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/kneeMpointerImgRed.png)
+}
+
+.structure.female .body_list.right>li.ankleMpointer {
+	left: -85px;
+	top: 630px
+}
+
+.structure.female .body_list.right>li.ankleMpointer>a:before {
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/ankleMpointerImgWhite.png);
+	position: absolute;
+	left: -228px;
+	top: 6px;
+	width: 215px
+}
+
+.body_list.right li:nth-child(10)>a:hover:before, .structure.female .body_list.right>li.ankleMpointer:hover>a:before
+	{
+	content: url(https://bansalhospital.com/wp-content/uploads/2020/nimages/pointers/ankleMpointerImgRed.png)
+}
+
+
+
+
+
+@media ( max-width :1200px) {
+.csp_section .left_txt .form-group {
+		padding-right: 0
+	}
+	.body_list>li>a .txt, .body_list>li>a::before {
+		display: none
+	}
+	.body_list>li>a .dot {
+		height: 12px;
+		width: 12px;
+		background-color: #09b058;
+		float: left;
+		border-radius: 100%;
+		border: 2px solid #fff
+	}
+	.structure {
+		max-width: 280px
+	}
+	.structure>img {
+		width: 280px
+	}
+	.csp_section .inner {
+		padding: 15px
+	}
+	.body_list>li:nth-child(1) {
+		top: 35px;
+		left: 120px
+	}
+	.body_list>li:nth-child(2) {
+		top: 85px;
+		left: 125px
+	}
+	.body_list>li:nth-child(3) {
+		top: 140px;
+		left: 105px
+	}
+	.body_list>li:nth-child(4) {
+		top: 165px;
+		left: 120px
+	}
+	.body_list>li:nth-child(5) {
+		top: 190px;
+		left: 125px
+	}
+	.body_list>li:nth-child(6) {
+		top: 240px;
+		left: 70px
+	}
+	.body_list>li:nth-child(7) {
+		top: 305px;
+		left: 110px
+	}
+	.body_list>li:nth-child(8) {
+		top: 400px;
+		left: 110px
+	}
+	.body_list>li:nth-child(9) {
+		top: 470px;
+		left: 115px
+	}
+	.body_list.right>li:nth-child(1) {
+		top: 30px;
+		left: -140px
+	}
+	.body_list.right>li:nth-child(2) {
+		top: 105px;
+		left: -100px
+	}
+	.body_list.right>li:nth-child(3) {
+		top: 120px;
+		left: -125px
+	}
+	.body_list.right>li:nth-child(4) {
+		top: 140px;
+		left: -125px
+	}
+	.body_list.right>li:nth-child(5) {
+		top: 165px;
+		left: -95px
+	}
+	.body_list.right>li:nth-child(6) {
+		top: 175px;
+		left: -140px
+	}
+	.body_list.right>li:nth-child(7) {
+		top: 235px;
+		left: -105px
+	}
+	.body_list.right>li:nth-child(8) {
+		top: 315px;
+		left: -125px
+	}
+	.body_list.right>li:nth-child(9) {
+		top: 365px;
+		left: -125px
+	}
+	.body_list.right>li:nth-child(10) {
+		top: 435px;
+		left: -130px
+	}
+	.body_list.right>li:nth-child(11) {
+		top: 475px;
+		left: -135px
+	}
+	.body_list.left>li:nth-child(1) {
+		top: 35px;
+		left: 120px
+	}
+	.body_list.left>li:nth-child(2) {
+		top: 65px;
+		left: 120px
+	}
+	.body_list.left>li:nth-child(3) {
+		top: 120px;
+		left: 110px
+	}
+	.body_list.left>li:nth-child(4) {
+		top: 145px;
+		left: 125px
+	}
+	.body_list.left>li:nth-child(5) {
+		top: 190px;
+		left: 120px
+	}
+	.body_list.left>li:nth-child(6) {
+		top: 215px;
+		left: 60px
+	}
+	.body_list>li:nth-child(7) {
+		top: 285px
+	}
+	.body_list>li:nth-child(8) {
+		left: 115px
+	}
+	.body_list>li:nth-child(9) {
+		top: 455px
+	}
+	.male .body_list.right>li:nth-child(1) {
+		top: 25px
+	}
+	.male .body_list.right>li:nth-child(2) {
+		top: 90px;
+		left: -95px
+	}
+	.male .body_list.right>li:nth-child(3) {
+		top: 115px
+	}
+	.male .body_list.right>li:nth-child(4) {
+		top: 135px;
+		left: -125px
+	}
+	.male .body_list.right li:nth-child(6) {
+		top: 160px;
+		left: -140px
+	}
+	.male .body_list.right li:nth-child(5) {
+		top: 195px;
+		left: -85px
+	}
+	.male .body_list.right li:nth-child(10) {
+		top: 425px;
+		left: -135px
+	}
+	.male .body_list.right li:nth-child(11) {
+		top: 455px;
+		left: -140px
+	}
+	.right_txt::before {
+		display: none
+	}
+	.right_txt {
+		left: 50%;
+		margin-left: -125px;
+		top: 40px
+	}
+	.body_list>li:hover .right_txt {
+		top: 20px;
+		left: 50%
+	}
+	.right_txt p {
+		display: block
+	}
+	.body_list.right .right_txt {
+		left: 50%;
+		margin-left: -125px;
+		top: 40px;
+		right: auto
+	}
+	.body_list.right>li:hover .right_txt {
+		right: auto;
+		left: 50%
+	}
+	.body_list>li:hover>a .dot, .body_list>li>a:hover .dot {
+		background-color: #067070
+	}
+	.body_list>li>a .dot {
+		width: 10px;
+		height: 10px
+	}
+	.structure.male .body_list.left>li.eyeMpointer {
+		left: 125px;
+		top: 36px
+	}
+	.structure.male .body_list.left>li.earMPointer {
+		left: 108px;
+		top: 51px
+	}
+	.structure.male .body_list.left>li.teethMpointer {
+		left: 130px;
+		top: 58px
+	}
+	.structure.male .body_list.left>li.throatMpointer {
+		left: 132px;
+		top: 72px
+	}
+	.structure.male .body_list.left>li.liverMpointer {
+		left: 120px;
+		top: 135px
+	}
+	.structure.male .body_list.left>li.handMpointer {
+		left: 60px;
+		top: 165px
+	}
+	.structure.male .body_list.left>li.pancreas {
+		left: 70px;
+		top: 195px
+	}
+	.structure.male .body_list.left>li.kidneysMpointer {
+		left: 110px;
+		top: 215px
+	}
+	.structure.male .body_list.left>li.lowerBackMpointer {
+		left: 125px;
+		top: 230px
+	}
+	.structure.male .body_list.left>li.reproductiveMpointer {
+		left: 132px;
+		top: 247px
+	}
+	.structure.male .body_list.left>li.thighMpointer {
+		left: 110px;
+		top: 300px
+	}
+	.structure.male .body_list.left>li.footMpointer {
+		left: 115px;
+		top: 452px
+	}
+	.structure.male .body_list.right>li.brainMpointer {
+		left: -140px;
+		top: 25px
+	}
+	.structure.male .body_list.right>li.noseMpointer {
+		left: -142px;
+		top: 50px
+	}
+	.structure.male .body_list.right>li.heartMpointer {
+		left: -123px;
+		top: 112px
+	}
+	.structure.male .body_list.right>li.lungMpointer {
+		left: -122px;
+		top: 137px
+	}
+	.structure.male .body_list.right>li.elbowMpointer {
+		left: -87px;
+		top: 170px
+	}
+	.structure.male .body_list.right>li.spineMpointer {
+		left: -140px;
+		top: 165px
+	}
+	.structure.male .body_list.right>li.stomachMpointer {
+		left: -135px;
+		top: 220px
+	}
+	.structure.male .body_list.right>li.hipMpointer {
+		left: -100px;
+		top: 260px
+	}
+	.structure.male .body_list.right>li.kneeMpointer {
+		left: -125px;
+		top: 360px
+	}
+	.structure.male .body_list.right>li.ankleMpointer {
+		left: -135px;
+		top: 437px
+	}
+	.structure.male .body_list.left>li.lowerBackMpointer .right_txt {
+		left: auto
+	}
+	.structure.male .body_list.left>li.lowerBackMpointer:hover .right_txt {
+		left: auto
+	}
+	.structure.male .body_list.left>li.reproductiveMpointer .right_txt {
+		left: auto
+	}
+	.structure.male .body_list.left>li.reproductiveMpointer:hover .right_txt
+		{
+		left: auto
+	}
+	.structure.female .body_list.left>li.eyeMpointer {
+		left: 125px;
+		top: 45px
+	}
+	.structure.female .body_list.left>li.earMPointer {
+		left: 105px;
+		top: 55px
+	}
+	.structure.female .body_list.left>li.teethMpointer {
+		left: 130px;
+		top: 65px
+	}
+	.structure.female .body_list.left>li.throatMpointer {
+		left: 129px;
+		top: 82px
+	}
+	.structure.female .body_list.left>li.chestMpointer {
+		left: 110px;
+		top: 125px
+	}
+	.structure.female .body_list.left>li.liverMpointer {
+		left: 120px;
+		top: 150px
+	}
+	.structure.female .body_list.left>li.handMpointer {
+		left: 70px;
+		top: 175px
+	}
+	.structure.female .body_list.left>li.pancreas {
+		left: 70px;
+		top: 195px
+	}
+	.structure.female .body_list.left>li.kidneysMpointer {
+		left: 110px;
+		top: 215px
+	}
+	.structure.female .body_list.left>li.lowerBackMpointer {
+		left: 125px;
+		top: 235px
+	}
+	.structure.female .body_list.left>li.reproductiveMpointer {
+		left: 132px;
+		top: 260px
+	}
+	.structure.female .body_list.left>li.thighMpointer {
+		left: 105px;
+		top: 300px
+	}
+	.structure.female .body_list.left>li.footMpointer {
+		left: 110px;
+		top: 470px
+	}
+	.structure.female .body_list.right>li.brainMpointer {
+		left: -138px;
+		top: 30px
+	}
+	.structure.female .body_list.right>li.noseMpointer {
+		left: -142px;
+		top: 55px
+	}
+	.structure.female .body_list.right>li.heartMpointer {
+		left: -123px;
+		top: 125px
+	}
+	.structure.female .body_list.right>li.lungMpointer {
+		left: -128px;
+		top: 152px
+	}
+	.structure.female .body_list.right>li.elbowMpointer {
+		left: -87px;
+		top: 175px
+	}
+	.structure.female .body_list.right>li.spineMpointer {
+		left: -145px;
+		top: 175px
+	}
+	.structure.female .body_list.right>li.stomachMpointer {
+		left: -135px;
+		top: 232px
+	}
+	.structure.female .body_list.right>li.hipMpointer {
+		left: -100px;
+		top: 265px
+	}
+	.structure.female .body_list.right>li.kneeMpointer {
+		left: -122px;
+		top: 360px
+	}
+	.structure.female .body_list.right>li.ankleMpointer {
+		left: -132px;
+		top: 450px
+	}
+	.structure.female .body_list.left>li.lowerBackMpointer .right_txt {
+		left: auto
+	}
+	.structure.female .body_list.left>li.lowerBackMpointer:hover .right_txt
+		{
+		left: auto
+	}
+	.structure.female .body_list.left>li.reproductiveMpointer .right_txt {
+		left: auto
+	}
+	.structure.female .body_list.left>li.reproductiveMpointer:hover .right_txt
+		{
+		left: auto
+	}
+}
+
+
+@media all and (-ms-high-contrast:none) {
+	.csp_section .tab-content, ::-ms-backdrop {
+		padding-top: 30px
+	}
+	.structure .body_list>li, ::-ms-backdrop {
+		margin-top: 20px
+	}
+	.structure .body_list>li.eyeMpointer, ::-ms-backdrop {
+		top: 28px !important
+	}
+	.structure .body_list>li.eyeMpointer a span.txt, ::-ms-backdrop {
+		top: 15px !important
+	}
+	.structure .body_list>li.earMPointer, ::-ms-backdrop {
+		top: 47px !important
+	}
+	.structure .body_list>li.earMPointer a span.txt, ::-ms-backdrop {
+		top: 15px !important
+	}
+	.structure.female .body_list>li.eyeMpointer, ::-ms-backdrop {
+		top: 38px !important
+	}
+	.structure.female .body_list>li.earMPointer, ::-ms-backdrop {
+		top: 57px !important
+	}
+	.structure.female .body_list>li.brainMpointer, ::-ms-backdrop {
+		top: 60px !important
+	}
+	.structure.female .body_list>li.noseMpointer, ::-ms-backdrop {
+		top: 105px !important;
+		left: -113px
+	}
+}
+
+
+
+@media only screen and (max-width:1024px) {
+
+	.male .body_list.left>li:nth-child(9) {
+		left: 120px;
+		top: 450px
+	}
+	.body_list>li:nth-child(1) .right_txt {
+		left: auto !important;
+		right: auto !important
+	}
+	.body_list>li:nth-child(1):hover .right_txt {
+		left: auto;
+		right: auto
+	}
+	.body_list.left>li:nth-child(1):hover .right_txt {
+		left: auto;
+		right: auto
+	}
+	.body_list.right>li:nth-child(1):hover .right_txt {
+		left: auto;
+		right: auto
+	}
+	.right_menu {
+		position: absolute
+	}
+	.cmp_section .inner h2 {
+		margin-top: 0
+	}
+}
+
+/*@media ( max-width :767px) {
+	@
+	-webkit-keyframes pulse { 0%{
+		-webkit-transform: scale3d(.6, .6, .6);
+		transform: scale3d(.6, .6, .6)
+	}
+	50%{
+	-webkit-transform
+	:scale3d
+	(1
+	.1
+	,
+	1
+	.1
+	,
+	1
+	.1
+	);transform
+	:scale3d
+	(1
+	.1
+	,
+	1
+	.1
+	,
+	1
+	.1
+	)
+}
+
+100%{
+-webkit-transform
+:scale3d
+(
+.6
+,
+.6
+,
+.6
+);transform
+:scale3d
+(
+.6
+,
+.6
+,
+.6
+)
+}
+}
+@
+keyframes pulse { 0%{
+	-webkit-transform: scale3d(.6, .6, .6);
+	transform: scale3d(.6, .6, .6)
+}
+
+50%{
+-webkit-transform
+:scale3d
+(1
+.1
+,
+1
+.1
+,
+1
+.1
+);transform
+:scale3d
+(1
+.1
+,
+1
+.1
+,
+1
+.1
+)
+}
+100%{
+-webkit-transform
+:scale3d
+(
+.6
+,
+.6
+,
+.6
+);transform
+:scale3d
+(
+.6
+,
+.6
+,
+.6
+)
+}
+}
+.body_list>li>a .dot {
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	-webkit-animation-name: pulse;
+	animation-name: pulse
+}
+}*/
+@media (max-width: 767px) {
+    @-webkit-keyframes pulse {
+      0% {
+        -webkit-transform: scale3d(0.6, 0.6, 0.6);
+        transform: scale3d(0.6, 0.6, 0.6);
+      }
+      50% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+      }
+      100% {
+        -webkit-transform: scale3d(0.6, 0.6, 0.6);
+        transform: scale3d(0.6, 0.6, 0.6);
+      }
+    }
+  
+    @keyframes pulse {
+      0% {
+        -webkit-transform: scale3d(0.6, 0.6, 0.6);
+        transform: scale3d(0.6, 0.6, 0.6);
+      }
+      50% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+      }
+      100% {
+        -webkit-transform: scale3d(0.6, 0.6, 0.6);
+        transform: scale3d(0.6, 0.6, 0.6);
+      }
+    }
+  
+    .body_list>li>a .dot {
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-out;
+      -webkit-animation-name: pulse;
+      animation-name: pulse;
+    }
+  }
+  
